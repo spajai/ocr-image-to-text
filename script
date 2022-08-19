@@ -1,0 +1,20 @@
+#!/usr/bin/perl -w
+
+use strict;
+use warnings;
+
+use Common;
+use Extract;
+
+my $c = Common->new();
+my $path = "/project/image/4237236353.png";
+
+my $info = $c->get_image_metadata($path);
+
+my $extract = Extract->new();
+
+print $extract->parse_by_type($info) ."\n";
+
+
+__END__
+my $path = "/project/image/4237236353.png";
