@@ -33,9 +33,11 @@ sudo cpanm Image::Info;
 https://app.vagrantup.com/s4mobile/boxes/debian-7.11-amd64/versions/1.0.1/providers/virtualboxa.box
 
 ```
-#image 1
-    # Check height and width
-    # check if png
-    # check regex matches
+# image 1
+* Check height and width
+* check if png
+* check regex matches
 
 
+#### use perl script inside the script folder to run and Conf file , log4perl conf 
+ 
