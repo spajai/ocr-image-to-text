@@ -1,6 +1,7 @@
-# state of the Art OCR able to extract text from image can be improved to greater extent. 
-# purpose of the repo is to demonstrate the Working Model with Perl, [Tesseract](https://github.com/tesseract-ocr/tesseract),[imagemagick](https://imagemagick.org/index.php)
+##### state of the Art OCR able to extract text from image can be improved to greater extent. 
+##### purpose of the repo is to demonstrate the Working Model with Perl, [Tesseract](https://github.com/tesseract-ocr/tesseract),[imagemagick](https://imagemagick.org/index.php)
 
+```
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install build-essential
 
@@ -31,7 +32,7 @@ sudo cpanm Image::Info;
 
 https://app.vagrantup.com/s4mobile/boxes/debian-7.11-amd64/versions/1.0.1/providers/virtualboxa.box
 
-
+```
 #image 1
     # Check height and width
     # check if png
