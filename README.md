@@ -1,3 +1,6 @@
+# state of the Art OCR able to extract text from image can be improved to greater extent. 
+# purpose of the repo is to demonstrate the Working Model with Perl, [Tesseract](https://github.com/tesseract-ocr/tesseract),[imagemagick](https://imagemagick.org/index.php)
+
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install build-essential
 
